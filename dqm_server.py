@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.append('../')
+sys.path.append('/django_app')
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "{appname}.settings".format(appname=os.environ['DJANGO_APP']))
 import django
 django.setup()
